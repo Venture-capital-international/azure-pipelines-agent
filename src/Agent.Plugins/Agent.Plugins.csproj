@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="azuredevops-testresultparser" Version="1.0.2" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8" />
     <PackageReference Include="vss-api-netcore" Version="$(VssApiVersion)" />
   </ItemGroup>
 </Project>

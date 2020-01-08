@@ -50,6 +50,11 @@
   </PropertyGroup>
 
   <PropertyGroup>
+    <CodeAnalysisRuleSet>..\rules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+
+  <PropertyGroup>
     <DefineConstants>$(OSPlatform);$(OSArchitecture);$(DebugConstant);TRACE</DefineConstants>
   </PropertyGroup>
 </Project>
